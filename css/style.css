@@ -49,8 +49,8 @@ a{
 
 .card-content p{
   padding:30px 30px 15px 30px;
-  font-weight:300;
-  font-size: 13px;
+  font-weight:300 !important;
+  font-size: 14px;
   text-align: left;
 }
 
@@ -83,23 +83,22 @@ a{
 	margin-top: -6em;
 }
 
-
 h4, h5 {
-	font-weight: 200 !important;
+	font-weight: 700 !important;
 }
 
 h6 {
-  font-weight: 500 !important;
+  font-weight: 200 !important;
 }
 
 hr{
-	 margin-left: 30%;
-	 margin-right: 30%;
+	 margin-left: 25%;
+	 margin-right: 25%;
 	 height:0;
    border:0;
-   border-top:1px solid #CECECE;
-   margin-bottom: 1.5em;
-   margin-top: 1.5em;
+   border-top:1px solid #e91e63;
+   margin-bottom: 2em ;
+   margin-top: 1em;
 }
 
 #inline{
@@ -117,10 +116,6 @@ hr{
 	transition: all 1.5s ease-in;
 }
 
-#inline li a:hover img{
-	/*transform:rotate(360deg);*/
-}
-
 .card-reveal{
 	background: url("../img/bg.png");
 	background-repeat: no-repeat;
@@ -129,10 +124,6 @@ hr{
 
 #titles-back{
 	padding-top: 25%;
-}
-
-#titles-back h6{
-	text-indent: 2em;
 }
 
 tr:hover{
@@ -146,5 +137,6 @@ tr:hover{
 #info{
   width: 100%;
   color: #fff;
-  font-weight:200;
+  font-weight:300;
+  font-size: 14px;
 }
