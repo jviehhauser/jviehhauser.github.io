@@ -128,8 +128,7 @@ hr{
 }
 
 #titles-back{
-	position: absolute;
-	top: 15%;
+	padding-top: 25%;
 }
 
 #titles-back h6{
@@ -145,72 +144,7 @@ tr:hover{
 }
 
 #info{
-	width:163%;
-	/*background: #fff;*/
+  width: 100%;
   color: #fff;
   font-weight:200;
-}
-
-
-@media(min-width: 1920px){
-	#info{
-		width: 245%;
-	}
-}
-
-@media(max-width: 980px){
-
-	#info{
-		width: 213%;
-	}
-
-
-}
-
-@media(max-width: 979px){
-
-	#info{
-		width: 200%;
-	}
-
-}
-
-@media(max-width: 890px){
-
-	#info{
-		width: 193%;
-	}
-
-}
-
-@media(max-width: 865px){
-
-	#info{
-		width: 186%;
-	}
-
-}
-
-@media(max-width: 800px){
-
-	#info{
-		width: 168%;
-	}
-
-}
-
-@media(max-width: 360px){
-
-	#info{
-		width: 118%;
-	}
-
-}
-
-@media(max-width: 320px){
-
-	#info{
-		width: 100%;
-	}
-
 }
